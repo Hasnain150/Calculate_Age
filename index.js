@@ -42,7 +42,7 @@ function dateOfBirth(){
    function getDaysInMonth(y,m){
     return new Date(y,m,0).getDate();
    }
-   results.innerHTML=`You are <span>${y3}</span> Years ,<span>${m3}</span> Months And <span>${d3}</span> Days Old`
+   results.innerHTML=`You are <span>${y3}</span> Years , <span>${m3}</span> Months And <span>${d3}</span> Days Old`
 
 
 }
