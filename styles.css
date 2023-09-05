@@ -28,7 +28,7 @@
 .input{
     display: flex;
     width: 100%;
-    margin: 50px 0px;
+    margin: 50px 0px 30px;
     padding: 20px 25px;
     background-color: #F4EEEE;
     border-radius: 10px;
@@ -54,6 +54,14 @@
     color: white;
 
 }
+#result{
+    margin-left: 55px;
+    color: white;
+    font-size: 27px;
+}
+#result span{
+    color: #FFC436;
+}
 
 
 /* for phones */
@@ -71,6 +79,10 @@
 }
 .input{
 width: 95%;
+}#result{
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
 }
     
 }
